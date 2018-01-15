@@ -13,6 +13,7 @@
 		82DD5A2C2008F9DB00DD995C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82DD5A2A2008F9DB00DD995C /* Main.storyboard */; };
 		82DD5A2E2008F9DB00DD995C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82DD5A2D2008F9DB00DD995C /* Assets.xcassets */; };
 		82DD5A312008F9DB00DD995C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82DD5A2F2008F9DB00DD995C /* LaunchScreen.storyboard */; };
+		82DD5A4E2008FD6200DD995C /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DD5A4D2008FD6200DD995C /* CustomCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		82DD5A2D2008F9DB00DD995C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82DD5A302008F9DB00DD995C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82DD5A322008F9DB00DD995C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82DD5A4C2008FD6200DD995C /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		82DD5A4D2008FD6200DD995C /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +61,12 @@
 		82DD5A202008F9DB00DD995C /* InstaKilo Rev1 */ = {
 			isa = PBXGroup;
 			children = (
-				82DD5A242008F9DB00DD995C /* AppDelegate.h */,
-				82DD5A252008F9DB00DD995C /* AppDelegate.m */,
+				82DD5A2A2008F9DB00DD995C /* Main.storyboard */,
 				82DD5A272008F9DB00DD995C /* ViewController.h */,
 				82DD5A282008F9DB00DD995C /* ViewController.m */,
-				82DD5A2A2008F9DB00DD995C /* Main.storyboard */,
+				82DD5A4C2008FD6200DD995C /* CustomCell.h */,
+				82DD5A4D2008FD6200DD995C /* CustomCell.m */,
 				82DD5A2D2008F9DB00DD995C /* Assets.xcassets */,
-				82DD5A2F2008F9DB00DD995C /* LaunchScreen.storyboard */,
-				82DD5A322008F9DB00DD995C /* Info.plist */,
 				82DD5A212008F9DB00DD995C /* Supporting Files */,
 			);
 			path = "InstaKilo Rev1";
@@ -74,6 +75,10 @@
 		82DD5A212008F9DB00DD995C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				82DD5A2F2008F9DB00DD995C /* LaunchScreen.storyboard */,
+				82DD5A242008F9DB00DD995C /* AppDelegate.h */,
+				82DD5A252008F9DB00DD995C /* AppDelegate.m */,
+				82DD5A322008F9DB00DD995C /* Info.plist */,
 				82DD5A222008F9DB00DD995C /* main.m */,
 			);
 			name = "Supporting Files";
@@ -152,6 +157,7 @@
 			files = (
 				82DD5A292008F9DB00DD995C /* ViewController.m in Sources */,
 				82DD5A262008F9DB00DD995C /* AppDelegate.m in Sources */,
+				82DD5A4E2008FD6200DD995C /* CustomCell.m in Sources */,
 				82DD5A232008F9DB00DD995C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +315,7 @@
 				82DD5A372008F9DB00DD995C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
